@@ -1,0 +1,16 @@
+PODS:
+  - VariousViewsEffects (1.2.1)
+
+DEPENDENCIES:
+  - VariousViewsEffects
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - VariousViewsEffects
+
+SPEC CHECKSUMS:
+  VariousViewsEffects: 07c0592127b36a32549e61f73e48ae1a4a865566
+
+PODFILE CHECKSUM: 745db92dc7fbf145edf09bacfa7468470eeae591
+
+COCOAPODS: 1.5.3

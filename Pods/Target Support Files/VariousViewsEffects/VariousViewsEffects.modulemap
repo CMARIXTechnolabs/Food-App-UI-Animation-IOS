@@ -1,0 +1,6 @@
+framework module VariousViewsEffects {
+  umbrella header "VariousViewsEffects-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E7411A84636CB060B5443C7ECB195BF /* GridSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE4206873D62FB897F80E42DCA70369 /* GridSize.swift */; };
+		11E14DF29EBE223D44B66A103F13F5FE /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A23D0E4E10BCB4D8C965B0A9AD7443 /* ImageHelper.swift */; };
+		1256AB29C6FD39FBFB09E27941286F93 /* Pods-Animation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C6F28CE03575EEEF95DB6491BE54F5 /* Pods-Animation-dummy.m */; };
+		38153D82ECFA91CFCE16AD8C4117F292 /* VariousViewsEffects.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BB33ECA87A7D4E7DE554539316972F35 /* VariousViewsEffects.bundle */; };
+		4A78F44770CE9344E4B1B2E8539ED956 /* Pods-Animation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9955A0A7EE825F6B2ADDBB479648B2C /* Pods-Animation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FB7BAEC60D73C379B295857595D4919 /* GlassBreakAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9979B996DCBCD5118D967522D21A30C /* GlassBreakAnimation.swift */; };
+		6981BDD4B505B4970677BCE432562326 /* GlassPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD953D6A5146E5BF35BDB5FC4D720E /* GlassPiece.swift */; };
+		74763832ED8816E186F1238F935808F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		7F448BAD32E6BF67CE5202A59CB86AB7 /* ExplosionPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1824C35F96AE4D82F24C8C27BCEBCCE /* ExplosionPiece.swift */; };
+		888E49645CBDFC9AEE97A984BE71A677 /* ExplosionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930193410BE3E9A230E5878F0A0F13A6 /* ExplosionAnimation.swift */; };
+		9BB6416658CF0DC2CF1FCBEE9AFD4AA9 /* SnowflakeSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ADB1C3C0C60A21B0442EEDDCDBA71C /* SnowflakeSpeed.swift */; };
+		AE7B991049406A150793C293F94A7DD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B9865089DDB05AED61A17EECC53FA951 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744CEA08455BDDB6ABCF54A3233377F7 /* UIViewExtensions.swift */; };
+		E4E4FC4976CA5FAB831FD2A52D635DE6 /* VariousViewsEffects.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366DBC66B2BD381CACAAEDAC2B1BB956 /* VariousViewsEffects.xcassets */; };
+		E880503295EA6E1CEB1E221058DF3BD3 /* VariousViewsEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB66F4BFEFFC13ACB314E88335E20F60 /* VariousViewsEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEFF43BF59AEA53D39EAA4445ECFC41A /* VariousViewsEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E38A4BA8CEF52EB51F0B0ADC1C0ACA57 /* VariousViewsEffects-dummy.m */; };
+		EFCED84B047714C657D25AE3BE7CB7D9 /* ClosedRangeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71401F7C72E7CE0F5A4FCD1B8558B9A6 /* ClosedRangeExtension.swift */; };
+		F466151AD6D91F7C143BCDD564F84D4B /* SnowflakesAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB79D9FF1D022390AF376524E4FFE9DD /* SnowflakesAnimation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CFF2ADDB08CB5BAD9332345B3B6BD15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A78F3E654C42CC8F7FE1E2AC11BC138;
+			remoteInfo = VariousViewsEffects;
+		};
+		C9E44CA793F6FE5D4412CD3AE5A146F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91CA0E27364B0CD0B17FE710561F849A;
+			remoteInfo = "VariousViewsEffects-VariousViewsEffects";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02436B9D4F7BF30EB5DF63DF91FB914F /* Pods-Animation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Animation-acknowledgements.plist"; sourceTree = "<group>"; };
+		05AD953D6A5146E5BF35BDB5FC4D720E /* GlassPiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlassPiece.swift; path = Source/GlassBreak/GlassPiece.swift; sourceTree = "<group>"; };
+		12A335377E7E9D0AA94DA73E280C7EA2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A687D4C312460B53BF23FCBA4551EF8 /* Pods-Animation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Animation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		21A23D0E4E10BCB4D8C965B0A9AD7443 /* ImageHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageHelper.swift; path = Source/ImageHelper.swift; sourceTree = "<group>"; };
+		243868F04F7602F02704EDAA3DC309DF /* Pods_Animation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Animation.framework; path = "Pods-Animation.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EC49227FE5E722FAA21F10D53F79B06 /* Pods-Animation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Animation.modulemap"; sourceTree = "<group>"; };
+		35DEE78CF68C3B19CA8BB2B4E4E14644 /* VariousViewsEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VariousViewsEffects-prefix.pch"; sourceTree = "<group>"; };
+		366DBC66B2BD381CACAAEDAC2B1BB956 /* VariousViewsEffects.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = VariousViewsEffects.xcassets; path = Source/VariousViewsEffects.xcassets; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6086FB3133D34D8B89491908E9132B94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71401F7C72E7CE0F5A4FCD1B8558B9A6 /* ClosedRangeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClosedRangeExtension.swift; path = Source/ClosedRangeExtension.swift; sourceTree = "<group>"; };
+		72ADB1C3C0C60A21B0442EEDDCDBA71C /* SnowflakeSpeed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnowflakeSpeed.swift; path = Source/Snowflakes/SnowflakeSpeed.swift; sourceTree = "<group>"; };
+		743D103CA34C4EDF1C9270EA2A428202 /* Pods-Animation-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Animation-resources.sh"; sourceTree = "<group>"; };
+		744CEA08455BDDB6ABCF54A3233377F7 /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = Source/UIViewExtensions.swift; sourceTree = "<group>"; };
+		7E46AF317424244877DEA094BFA6526E /* Pods-Animation-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Animation-frameworks.sh"; sourceTree = "<group>"; };
+		8BDE9C9123120CC3115CFD079CF049B2 /* VariousViewsEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VariousViewsEffects.xcconfig; sourceTree = "<group>"; };
+		930193410BE3E9A230E5878F0A0F13A6 /* ExplosionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExplosionAnimation.swift; path = Source/Explosion/ExplosionAnimation.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BE4206873D62FB897F80E42DCA70369 /* GridSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GridSize.swift; path = Source/GridSize.swift; sourceTree = "<group>"; };
+		A9955A0A7EE825F6B2ADDBB479648B2C /* Pods-Animation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Animation-umbrella.h"; sourceTree = "<group>"; };
+		A9979B996DCBCD5118D967522D21A30C /* GlassBreakAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlassBreakAnimation.swift; path = Source/GlassBreak/GlassBreakAnimation.swift; sourceTree = "<group>"; };
+		A9D21E933BF1B1386C79871A6CA5591D /* Pods-Animation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animation.debug.xcconfig"; sourceTree = "<group>"; };
+		B2C6F28CE03575EEEF95DB6491BE54F5 /* Pods-Animation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Animation-dummy.m"; sourceTree = "<group>"; };
+		BB33ECA87A7D4E7DE554539316972F35 /* VariousViewsEffects.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VariousViewsEffects.bundle; path = "VariousViewsEffects-VariousViewsEffects.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE2376E4130D804645C2FC46958573E /* VariousViewsEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VariousViewsEffects.modulemap; sourceTree = "<group>"; };
+		CB66F4BFEFFC13ACB314E88335E20F60 /* VariousViewsEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VariousViewsEffects-umbrella.h"; sourceTree = "<group>"; };
+		CB79D9FF1D022390AF376524E4FFE9DD /* SnowflakesAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnowflakesAnimation.swift; path = Source/Snowflakes/SnowflakesAnimation.swift; sourceTree = "<group>"; };
+		E38A4BA8CEF52EB51F0B0ADC1C0ACA57 /* VariousViewsEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VariousViewsEffects-dummy.m"; sourceTree = "<group>"; };
+		E53C90B02B72AE539E51A2335D61CE45 /* VariousViewsEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VariousViewsEffects.framework; path = VariousViewsEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED776B207E03AE3A5B4FDAE3FCE82E4 /* Pods-Animation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animation.release.xcconfig"; sourceTree = "<group>"; };
+		F1824C35F96AE4D82F24C8C27BCEBCCE /* ExplosionPiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExplosionPiece.swift; path = Source/Explosion/ExplosionPiece.swift; sourceTree = "<group>"; };
+		F6666BAE3D237A3836711150A9DD461B /* ResourceBundle-VariousViewsEffects-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-VariousViewsEffects-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63462208422C745813FE351D9B311034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA693BAD65402FDC22F1E561C20F5C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74763832ED8816E186F1238F935808F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9EA4A00590F7F0FC6E565DFF245D855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7B991049406A150793C293F94A7DD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A486521CF09A54806798E3644039D2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38EF2B7D8967351AB21E306E416A7A38 /* VariousViewsEffects */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		38EF2B7D8967351AB21E306E416A7A38 /* VariousViewsEffects */ = {
+			isa = PBXGroup;
+			children = (
+				71401F7C72E7CE0F5A4FCD1B8558B9A6 /* ClosedRangeExtension.swift */,
+				930193410BE3E9A230E5878F0A0F13A6 /* ExplosionAnimation.swift */,
+				F1824C35F96AE4D82F24C8C27BCEBCCE /* ExplosionPiece.swift */,
+				A9979B996DCBCD5118D967522D21A30C /* GlassBreakAnimation.swift */,
+				05AD953D6A5146E5BF35BDB5FC4D720E /* GlassPiece.swift */,
+				9BE4206873D62FB897F80E42DCA70369 /* GridSize.swift */,
+				21A23D0E4E10BCB4D8C965B0A9AD7443 /* ImageHelper.swift */,
+				CB79D9FF1D022390AF376524E4FFE9DD /* SnowflakesAnimation.swift */,
+				72ADB1C3C0C60A21B0442EEDDCDBA71C /* SnowflakeSpeed.swift */,
+				744CEA08455BDDB6ABCF54A3233377F7 /* UIViewExtensions.swift */,
+				9325431D2EC65F1CD52A1DC9B079F5FD /* Resources */,
+				F9EB94EA684CA7208727ABAF34317E05 /* Support Files */,
+			);
+			name = VariousViewsEffects;
+			path = VariousViewsEffects;
+			sourceTree = "<group>";
+		};
+		571BAACB90D9995D41526879FE276E06 /* Pods-Animation */ = {
+			isa = PBXGroup;
+			children = (
+				6086FB3133D34D8B89491908E9132B94 /* Info.plist */,
+				2EC49227FE5E722FAA21F10D53F79B06 /* Pods-Animation.modulemap */,
+				1A687D4C312460B53BF23FCBA4551EF8 /* Pods-Animation-acknowledgements.markdown */,
+				02436B9D4F7BF30EB5DF63DF91FB914F /* Pods-Animation-acknowledgements.plist */,
+				B2C6F28CE03575EEEF95DB6491BE54F5 /* Pods-Animation-dummy.m */,
+				7E46AF317424244877DEA094BFA6526E /* Pods-Animation-frameworks.sh */,
+				743D103CA34C4EDF1C9270EA2A428202 /* Pods-Animation-resources.sh */,
+				A9955A0A7EE825F6B2ADDBB479648B2C /* Pods-Animation-umbrella.h */,
+				A9D21E933BF1B1386C79871A6CA5591D /* Pods-Animation.debug.xcconfig */,
+				EED776B207E03AE3A5B4FDAE3FCE82E4 /* Pods-Animation.release.xcconfig */,
+			);
+			name = "Pods-Animation";
+			path = "Target Support Files/Pods-Animation";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		697496DE21DEC954EF06B8F27855F288 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				243868F04F7602F02704EDAA3DC309DF /* Pods_Animation.framework */,
+				BB33ECA87A7D4E7DE554539316972F35 /* VariousViewsEffects.bundle */,
+				E53C90B02B72AE539E51A2335D61CE45 /* VariousViewsEffects.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2A486521CF09A54806798E3644039D2E /* Pods */,
+				697496DE21DEC954EF06B8F27855F288 /* Products */,
+				7F5EA7CE35DF317ED7B6084E47E07725 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F5EA7CE35DF317ED7B6084E47E07725 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				571BAACB90D9995D41526879FE276E06 /* Pods-Animation */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9325431D2EC65F1CD52A1DC9B079F5FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				366DBC66B2BD381CACAAEDAC2B1BB956 /* VariousViewsEffects.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9EB94EA684CA7208727ABAF34317E05 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12A335377E7E9D0AA94DA73E280C7EA2 /* Info.plist */,
+				F6666BAE3D237A3836711150A9DD461B /* ResourceBundle-VariousViewsEffects-Info.plist */,
+				BFE2376E4130D804645C2FC46958573E /* VariousViewsEffects.modulemap */,
+				8BDE9C9123120CC3115CFD079CF049B2 /* VariousViewsEffects.xcconfig */,
+				E38A4BA8CEF52EB51F0B0ADC1C0ACA57 /* VariousViewsEffects-dummy.m */,
+				35DEE78CF68C3B19CA8BB2B4E4E14644 /* VariousViewsEffects-prefix.pch */,
+				CB66F4BFEFFC13ACB314E88335E20F60 /* VariousViewsEffects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VariousViewsEffects";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B0D49D200696E5FF1D82D6DB8E6CC38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A78F44770CE9344E4B1B2E8539ED956 /* Pods-Animation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681FBA371171E7D9647CDD8B60BC601E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E880503295EA6E1CEB1E221058DF3BD3 /* VariousViewsEffects-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6A78F3E654C42CC8F7FE1E2AC11BC138 /* VariousViewsEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA6289087FD7F647543457CBCDB98BE /* Build configuration list for PBXNativeTarget "VariousViewsEffects" */;
+			buildPhases = (
+				2DE198BA7C1681818BC94FD1D140A9AD /* Sources */,
+				F9EA4A00590F7F0FC6E565DFF245D855 /* Frameworks */,
+				2E3FCB0D117E9932C4A5D84CE0E34CAD /* Resources */,
+				681FBA371171E7D9647CDD8B60BC601E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FD672267F28A7F410CEAB3596575A9A /* PBXTargetDependency */,
+			);
+			name = VariousViewsEffects;
+			productName = VariousViewsEffects;
+			productReference = E53C90B02B72AE539E51A2335D61CE45 /* VariousViewsEffects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91CA0E27364B0CD0B17FE710561F849A /* VariousViewsEffects-VariousViewsEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 927570E62925EA39DC37232066B22D8F /* Build configuration list for PBXNativeTarget "VariousViewsEffects-VariousViewsEffects" */;
+			buildPhases = (
+				11D8725A7DD6AD7B71C840839A195DAD /* Sources */,
+				63462208422C745813FE351D9B311034 /* Frameworks */,
+				1835E635FE52BEE40AA045CBF67BFD38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VariousViewsEffects-VariousViewsEffects";
+			productName = "VariousViewsEffects-VariousViewsEffects";
+			productReference = BB33ECA87A7D4E7DE554539316972F35 /* VariousViewsEffects.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DABD16C9CE8F9B3E67D9318983622002 /* Pods-Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5371034F98C284A84DFD14839A7F4B50 /* Build configuration list for PBXNativeTarget "Pods-Animation" */;
+			buildPhases = (
+				9C48202EA2176F07DFC7AA4E87A9666A /* Sources */,
+				CA693BAD65402FDC22F1E561C20F5C1B /* Frameworks */,
+				1B0D49D200696E5FF1D82D6DB8E6CC38 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				580112222EF37B151F5C51EA28D7AE08 /* PBXTargetDependency */,
+			);
+			name = "Pods-Animation";
+			productName = "Pods-Animation";
+			productReference = 243868F04F7602F02704EDAA3DC309DF /* Pods_Animation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 697496DE21DEC954EF06B8F27855F288 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DABD16C9CE8F9B3E67D9318983622002 /* Pods-Animation */,
+				6A78F3E654C42CC8F7FE1E2AC11BC138 /* VariousViewsEffects */,
+				91CA0E27364B0CD0B17FE710561F849A /* VariousViewsEffects-VariousViewsEffects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1835E635FE52BEE40AA045CBF67BFD38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E4FC4976CA5FAB831FD2A52D635DE6 /* VariousViewsEffects.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E3FCB0D117E9932C4A5D84CE0E34CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38153D82ECFA91CFCE16AD8C4117F292 /* VariousViewsEffects.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11D8725A7DD6AD7B71C840839A195DAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE198BA7C1681818BC94FD1D140A9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCED84B047714C657D25AE3BE7CB7D9 /* ClosedRangeExtension.swift in Sources */,
+				888E49645CBDFC9AEE97A984BE71A677 /* ExplosionAnimation.swift in Sources */,
+				7F448BAD32E6BF67CE5202A59CB86AB7 /* ExplosionPiece.swift in Sources */,
+				4FB7BAEC60D73C379B295857595D4919 /* GlassBreakAnimation.swift in Sources */,
+				6981BDD4B505B4970677BCE432562326 /* GlassPiece.swift in Sources */,
+				0E7411A84636CB060B5443C7ECB195BF /* GridSize.swift in Sources */,
+				11E14DF29EBE223D44B66A103F13F5FE /* ImageHelper.swift in Sources */,
+				F466151AD6D91F7C143BCDD564F84D4B /* SnowflakesAnimation.swift in Sources */,
+				9BB6416658CF0DC2CF1FCBEE9AFD4AA9 /* SnowflakeSpeed.swift in Sources */,
+				B9865089DDB05AED61A17EECC53FA951 /* UIViewExtensions.swift in Sources */,
+				EEFF43BF59AEA53D39EAA4445ECFC41A /* VariousViewsEffects-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C48202EA2176F07DFC7AA4E87A9666A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1256AB29C6FD39FBFB09E27941286F93 /* Pods-Animation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		580112222EF37B151F5C51EA28D7AE08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VariousViewsEffects;
+			target = 6A78F3E654C42CC8F7FE1E2AC11BC138 /* VariousViewsEffects */;
+			targetProxy = 8CFF2ADDB08CB5BAD9332345B3B6BD15 /* PBXContainerItemProxy */;
+		};
+		8FD672267F28A7F410CEAB3596575A9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "VariousViewsEffects-VariousViewsEffects";
+			target = 91CA0E27364B0CD0B17FE710561F849A /* VariousViewsEffects-VariousViewsEffects */;
+			targetProxy = C9E44CA793F6FE5D4412CD3AE5A146F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		073E4C2E7DEA36045D3DA49C958A2D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BDE9C9123120CC3115CFD079CF049B2 /* VariousViewsEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VariousViewsEffects/VariousViewsEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VariousViewsEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VariousViewsEffects/VariousViewsEffects.modulemap";
+				PRODUCT_MODULE_NAME = VariousViewsEffects;
+				PRODUCT_NAME = VariousViewsEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D52AD83CB10936A1A82F71FDFC5B445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BDE9C9123120CC3115CFD079CF049B2 /* VariousViewsEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VariousViewsEffects";
+				INFOPLIST_FILE = "Target Support Files/VariousViewsEffects/ResourceBundle-VariousViewsEffects-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = VariousViewsEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BD2AA0EDF45C4A28E414411B7C94AD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EED776B207E03AE3A5B4FDAE3FCE82E4 /* Pods-Animation.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Animation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Animation/Pods-Animation.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CDA5E35834563C677A01DDF3AB463199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D21E933BF1B1386C79871A6CA5591D /* Pods-Animation.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Animation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Animation/Pods-Animation.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D05DB811C9A7A1E92FBAAD92F079D98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BDE9C9123120CC3115CFD079CF049B2 /* VariousViewsEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VariousViewsEffects";
+				INFOPLIST_FILE = "Target Support Files/VariousViewsEffects/ResourceBundle-VariousViewsEffects-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = VariousViewsEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D2D68E54A9B4AAE49B6D70B3CB8E0F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BDE9C9123120CC3115CFD079CF049B2 /* VariousViewsEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VariousViewsEffects/VariousViewsEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VariousViewsEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VariousViewsEffects/VariousViewsEffects.modulemap";
+				PRODUCT_MODULE_NAME = VariousViewsEffects;
+				PRODUCT_NAME = VariousViewsEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
+				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5371034F98C284A84DFD14839A7F4B50 /* Build configuration list for PBXNativeTarget "Pods-Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA5E35834563C677A01DDF3AB463199 /* Debug */,
+				BD2AA0EDF45C4A28E414411B7C94AD20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		927570E62925EA39DC37232066B22D8F /* Build configuration list for PBXNativeTarget "VariousViewsEffects-VariousViewsEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D52AD83CB10936A1A82F71FDFC5B445 /* Debug */,
+				D05DB811C9A7A1E92FBAAD92F079D98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA6289087FD7F647543457CBCDB98BE /* Build configuration list for PBXNativeTarget "VariousViewsEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073E4C2E7DEA36045D3DA49C958A2D34 /* Debug */,
+				D2D68E54A9B4AAE49B6D70B3CB8E0F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
