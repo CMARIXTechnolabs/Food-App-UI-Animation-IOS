@@ -174,7 +174,7 @@ View the design on  <a target="_blank" href="https://www.uplabs.com/posts/food-a
 ## Let us know! ##
 We’d be really happy if you sent us links to your projects where you use our component. Just send an email to [biz@cmarix.com](mailto:biz@cmarix.com "biz@cmarix.com") and do let us know if you have any questions or suggestion regarding Food App UI Animation in iOS.
 
-P.S. We’re going to publish more awesomeness examples on third party libaries, coding standards, plugins etc, in all the technology. Stay tuned!
+P.S. We’re going to publish more awesomeness examples on third party libraries, coding standards, plugins etc, in all the technology. Stay tuned!
 
 ## Stay Socially Connected ##
 
